@@ -7,14 +7,14 @@ from config import BOT_USERNAME
 
 NYKAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/DawnCheatMusicbot?startgroup=true"),
     ],
 ]
 
 @app.on_message(filters.command("cosplay"))
 async def cosplay(_,msg):
     img = requests.get("https://waifu-api.vercel.app").json()
-    await msg.reply_photo(img, caption=f"❖ ᴄᴏsᴘʟᴀʏ ʙʏ ~○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》࿐", reply_markup=InlineKeyboardMarkup(NYKAA),)
+    await msg.reply_photo(img, caption=f"❖ ᴄᴏsᴘʟᴀʏ ʙʏ ~○● ɴᴏᴛ | ꜱʜᴇɴɴ •》࿐", reply_markup=InlineKeyboardMarkup(NYKAA),)
 
 
 
@@ -30,6 +30,6 @@ async def ncosplay(_,msg):
     else:
        ncosplay = requests.get("https://waifu-api.vercel.app/items/1").json()
 
-       await msg.reply_photo(ncosplay, caption=f"❖ ᴄᴏsᴘʟᴀʏ ʙʏ ~○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》࿐", reply_markup=InlineKeyboardMarkup(NYKAA),)
+       await msg.reply_photo(ncosplay, caption=f"❖ ᴄᴏsᴘʟᴀʏ ʙʏ ~○● ɴᴏᴛ | ꜱʜᴇɴɴ •》࿐", reply_markup=InlineKeyboardMarkup(NYKAA),)
 
 

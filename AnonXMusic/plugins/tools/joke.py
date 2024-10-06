@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Arthey_bot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/DawnCheatMusicbot?startgroup=true"),
     ],
 ]
 
@@ -18,5 +18,5 @@ async def joke(_, message):
     response = requests.get(JOKE_API_ENDPOINT)
     r = response.json()
     joke_text = r['jokeContent']
-    await message.reply_text(joke_text, caption=f"❖ ᴊᴏᴋᴇs ʙʏ ~ ○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》👑", reply_markup=InlineKeyboardMarkup(EVAA),)
+    await message.reply_text(joke_text, caption=f"❖ ᴊᴏᴋᴇs ʙʏ ~ ○● ɴᴏᴛ | ꜱʜᴇɴɴ •》👑", reply_markup=InlineKeyboardMarkup(EVAA),)
   
