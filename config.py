@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "dronzerX1")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》@StarBoyMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "DawnChatMusicbot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》 Music")
+BOT_NAME = getenv("BOT_NAME", "DawnChatMusicbot")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "AVISHA_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "Bolnelagi")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -31,10 +31,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001783697502"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002369943104"))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6440277281"))
+OWNER_ID = int(getenv("OWNER_ID", "6444435371"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Starboymusic/StarSpartanMusic",
+    "https://github.com/Mr-Sakil/Star",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+tKjIHq2mPYRiOGI9")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+VMG2k7YrKzxmZWRl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+zcNPiCtKlVM5MjU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+W7fUZMIpwLVhNjc1")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
