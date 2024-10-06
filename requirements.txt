@@ -11,7 +11,7 @@ hachoir
 heroku3
 pykeyboard
 pyshorteners
-motor
+motor==3.4.0
 pillow==9.5.0
 psutil
 py-tgcalls==0.9.7
