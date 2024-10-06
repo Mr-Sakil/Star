@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from AnonXMusic import app
 from config import BOT_USERNAME
 
-start_txt = "❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》 XD ♡゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ○● 𝒀𝒐𝒈𝒆𝒔𝒉 •》 ♡゙ MUSIC"
+start_txt = "❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ○● ɴᴏᴛ | ꜱʜᴇɴɴ •》 XD ♡゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ○● ɴᴏᴛ | ꜱʜᴇɴɴ •》 ♡゙ MUSIC"
 
 
 
@@ -12,8 +12,8 @@ start_txt = "❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/YKD_KOREAN_DRAMA"),
-          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/+VMG2k7YrKzxmZWRl")
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/+zcNPiCtKlVM5MjU1"),
+          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/+W7fUZMIpwLVhNjc1")
           ],
     ]
     
